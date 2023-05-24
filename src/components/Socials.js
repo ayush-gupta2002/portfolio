@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { SiLeetcode, SiCodechef } from "react-icons/si";
 
-function SocialLinks() {
+function Socials() {
   const links = [
     {
       id: 1,
@@ -45,26 +45,35 @@ function SocialLinks() {
   ];
   const renderedLinks = links.map((l) => {
     return (
-      <li
+      <a
         key={l.id}
-        className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:rounded-md cursor-pointer duration-300 hover:ml-[-10px]"
+        className="shadow-md hover:scale-105 duration-500 cursor-pointer py-4 flex gap-2 items-center w-fit"
+        href={l.link}
       >
-        <a
-          href={l.link}
-          className="flex justify-between items-center w-full text-white"
-        >
-          <>
-            {l.name} {l.icon}
-          </>
-        </a>
-      </li>
+        <div className="my-auto" size={80}>
+          {l.icon}
+        </div>
+        <p className="my-auto font-semibold text-xl md:text-3xl">{l.name}</p>
+      </a>
     );
   });
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>{renderedLinks}</ul>
+    <div
+      name="socials"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+    >
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+        <div className="pb-8">
+          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 w-fit inline">
+            Socials
+          </p>
+        </div>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+          {renderedLinks}
+        </div>
+      </div>
     </div>
   );
 }
 
-export default SocialLinks;
+export default Socials;

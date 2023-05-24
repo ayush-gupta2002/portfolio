@@ -10,6 +10,7 @@ function Navbar() {
     { id: 3, label: "Portfolio", redirect: "portfolio" },
     { id: 4, label: "Skills", redirect: "skills" },
     { id: 5, label: "Contact", redirect: "contact" },
+    { id: 6, label: "Socials", redirect: "socials" },
   ];
   const renderedLinks = links.map((l) => {
     return (

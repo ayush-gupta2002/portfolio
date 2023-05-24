@@ -2,6 +2,7 @@ import React from "react";
 import EcoVoyage from "../assets/EcoVoyage.png";
 import DTUBook from "../assets/DTUBook.png";
 import fundME from "../assets/fundME.png";
+import portfolio from "../assets/portfolio.png";
 
 function Portfolio() {
   const portfolioLinks = [
@@ -25,6 +26,13 @@ function Portfolio() {
       name: "DTUBook",
       demo: "https://youtu.be/nFxJmB5o24U",
       code: "https://github.com/ayush-gupta2002/DTUBook",
+    },
+    {
+      id: 3,
+      img: portfolio,
+      name: "Portfolio",
+      demo: "https://jazzy-melomakarona-63ff08.netlify.app",
+      code: "https://github.com/ayush-gupta2002/portfolio",
     },
   ];
 
