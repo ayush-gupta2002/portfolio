@@ -10,7 +10,7 @@ function Portfolio() {
       id: 1,
       img: EcoVoyage,
       name: "EcoVoyage",
-      demo: "https://eco-voyage-83bznmwf6-ayush-gupta2002.vercel.app/",
+      demo: "https://eco-voyage.vercel.app",
       code: "https://github.com/ayush-gupta2002/eco-voyage",
     },
     {
