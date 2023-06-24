@@ -27,7 +27,7 @@ function SocialLinks() {
     {
       id: 4,
       name: "Resume",
-      link: "https://drive.google.com/file/d/18M0_tvhfrbpNIiwhFa8OadA2ziIj52JG/view",
+      link: "https://drive.google.com/file/d/1vc-VeEmAuOytb97HDvt1Ca6NYMSvaHjx/view?usp=sharing",
       icon: <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>,
     },
     {
