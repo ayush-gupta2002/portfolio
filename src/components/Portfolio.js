@@ -3,6 +3,7 @@ import EcoVoyage from "../assets/EcoVoyage.png";
 import DTUBook from "../assets/DTUBook.png";
 import fundME from "../assets/fundME.png";
 import portfolio from "../assets/portfolio.png";
+import Password from "../assets/Password.png";
 
 function Portfolio() {
   const portfolioLinks = [
@@ -29,6 +30,13 @@ function Portfolio() {
     },
     {
       id: 3,
+      img: Password,
+      name: "Password Generator",
+      demo: "https://password-green.vercel.app",
+      code: "https://github.com/ayush-gupta2002/password-generator",
+    },
+    {
+      id: 4,
       img: portfolio,
       name: "Portfolio",
       demo: "https://jazzy-melomakarona-63ff08.netlify.app",
