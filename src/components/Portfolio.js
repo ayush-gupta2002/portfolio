@@ -4,6 +4,7 @@ import DTUBook from "../assets/DTUBook.png";
 import fundME from "../assets/fundME.png";
 import portfolio from "../assets/portfolio.png";
 import Password from "../assets/Password.png";
+import Typing from "../assets/typing.png";
 
 function Portfolio() {
   const portfolioLinks = [
@@ -18,7 +19,7 @@ function Portfolio() {
       id: 3,
       img: fundME,
       name: "fundME",
-      code: "https://github.com/ayush-gupta2002/fund-me",
+      code: "https://github.com/ayush-gupta2002/fundME",
       demo: "https://github.com/ayush-gupta2002/fund-me",
     },
     {
@@ -37,6 +38,13 @@ function Portfolio() {
     },
     {
       id: 4,
+      img: Typing,
+      name: "Typing Game",
+      demo: "https://typing-game-omega-khaki.vercel.app",
+      code: "https://github.com/ayush-gupta2002/typing-game",
+    },
+    {
+      id: 5,
       img: portfolio,
       name: "Portfolio",
       demo: "https://jazzy-melomakarona-63ff08.netlify.app",
